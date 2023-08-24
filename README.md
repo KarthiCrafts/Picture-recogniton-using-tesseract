@@ -2,7 +2,7 @@
 
 This repository contains a Python script that demonstrates Optical Character Recognition (OCR) using Tesseract and OpenCV. It processes an image, extracts text from it, and displays the recognized text along with the original and processed images.
 
-![Original Image](/images/photo with horse.jpg) ![Thresholded Image](/images/photo with horse threshold.jpg)
+![Original Image](/images/photo with horse.jpg) 
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ This repository contains a Python script that demonstrates Optical Character Rec
 2. Navigate to the repository directory:
 
 3. Set the Tesseract executable path in the script:
-Open `ocr_script.py` and replace `r'C:\Program Files\Tesseract-OCR\tesseract.exe'` with the path to your Tesseract executable.
+Open `main.py` and replace `r'C:\Program Files\Tesseract-OCR\tesseract.exe'` with the path to your Tesseract executable.
 
 4. Place your images in the `/images` directory or update the `image_path` variable in the script to point to your image.
 
